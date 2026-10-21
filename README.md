@@ -6,7 +6,7 @@ Repository for lab 4
 The `cohort.db` database is made up of four tables: `patients`, `samples`, `mutations`, and `genes`.
 
 ### `patients` Table 
-* The primary key is patient_id.
+* The primary key is `patient_id`.
 * Each row represents one patient and metadata like their age at diagnosis, sex, etc.
 * Columns:
   * patient_id
@@ -17,7 +17,7 @@ The `cohort.db` database is made up of four tables: `patients`, `samples`, `muta
   * followup_months
 
 ### `samples` Table 
-* The foreign key is patient_id, allowing the `samples` table to merge with the `patients` table.
+* The foreign key is `patient_id`, allowing the `samples` table to merge with the `patients` table.
 * Each row represents one tissue sample and its associated metadata, such as the aneuploidy score, MSI Mantis score, etc.
 * Columns:
   * sample_id
@@ -28,7 +28,7 @@ The `cohort.db` database is made up of four tables: `patients`, `samples`, `muta
   * msi_mantis_score
 
 ### `mutations` Table 
-* The foreign key is sample_id, allowing the `mutations` table to merge with the `samples` table.
+* The foreign key is `sample_id`, allowing the `mutations` table to merge with the `samples` table.
 * Each row represents a mutation and its associated metadata, such as the gene, mutation type, etc.
 * Columns:
   * mutation_id
@@ -44,7 +44,7 @@ The `cohort.db` database is made up of four tables: `patients`, `samples`, `muta
   * t_alt_count
 
 ### `genes` Table 
-* The foreign key is chromosome, allowing the `genes` table to merge with the `mutations` table.
+* The foreign key is `gene_symbol`, allowing the `genes` table to merge with the `mutations` table.
 * Each row represents an individual gene and includes the gene ID and the chromosome the gene is located on.
 * Columns:
   * gene_symbol
