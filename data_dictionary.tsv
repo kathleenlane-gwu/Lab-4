@@ -1,0 +1,12 @@
+column_name	meaning	units	source_table
+patient_id	patient identifier	no unit	patients
+sex	patient sex	no unit	patients
+age_at_diagnosis	age at diagnosis of Lung Adenocarcinoma	years	patients
+stage	tumor stage	no unit	patients
+tissue_source_site	medical center where tissue data was collected	no unit	samples
+tmb_nonsynonymous	tumor mutation burden	mut/Mb	samples
+EGFR	EGFR gene	# of people	genes
+KEAP1	KEAP1 gene	# of people	genes
+KRAS	KRAS gene	# of people	genes
+STK11	STK11 gene	# of people	genes
+TP53	TP53 gene	# of people	genes
