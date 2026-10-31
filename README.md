@@ -4,7 +4,6 @@ Repository for lab 4
 ```
 Lab-4/
 ├── README.md
-├── cohort.db
 ├── data_dictionary.tsv
 ├── feature_table.tsv
 ├── lab-4.ipynb
